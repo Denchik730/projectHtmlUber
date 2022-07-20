@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/4ce05120cb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -31,7 +32,7 @@
                         <a href="#" class="subheader_logo"><img src="icons/logo_uber.png" alt="uber logo" class=""></a>
                         <div class="subheader_subtitle">Официальный партнер Uber в Москве</div>
                     </div>
-                    <div class="col-md-2 offset-md-2">
+                    <div class="col-md-3 offset-md-1 col-xl-2 offset-xl-2">
                     <div class="subheader_call">Звоните нам ежедневно</div>        
                     <a href="tel:84957970988" class="subheader_phone">8 495 797 09 88</a>            
                     </div>
@@ -325,42 +326,50 @@
             <a href="#" class="world_link">посмотреть все города</a>
         </div>
     </section>
-    <footer class="footer">
-        <div class="footer_line"></div>
-        <div class="footer_links">
-            <div class="footer_links_icons">
-                <div class="footer_links_icons_round"><img src="icons/facebook.png" alt="" class="footer_links_icons_facebook"></div>
-                <div class="footer_links_icons_round"><img src="icons/twitter.png" alt="" class="footer_links_icons_twitter"></div>
-                <div class="footer_links_icons_round"><img src="icons/linkedin.png" alt="" class="footer_links_icons_linkedom"></div>
-                <div class="footer_links_icons_round"><img src="icons/instagram.png" alt="" class="footer_links_icons_instagram"></div>
+    <footer>
+        <div class="footer_divider"></div>
+        <div class="footer_wrapper">
+            <!-- Если не оборачивать каждый блок в обертку - получится криво -->
+            <div>
+                <div class="footer_social">
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
             </div>
-            <div class="container">
-                <div class="col-md-5 offset-md-4">
+            <div>
+                <div class="footer_links">
                     <div class="footer_links_main">
-                        <a href="">на главную</a>
-                        <a href="">города</a>
-                        <a href="">для водителей</a>
+                        <a href="#">на главную</a>
+                        <a href="#">города</a>
+                        <a href="#">для водителей</a>
                     </div>
-                </div>
-                <div class="col-md-5 offset-md-4">
-                    <div class="footer_links_second">
-                        <a href="">центр поддержки</a>
-                        <a href="">вакансии</a>
-                        <a href="">разработчики</a>
-                        <a href="">блог</a>
-                        <a href="">о нас</a>
+                    <div class="footer_links_sub">
+                        <a href="#">центр поддержки</a>
+                        <a href="#">вакансии</a>
+                        <a href="#">разработчики</a>
+                        <a href="#">блог</a>
+                        <a href="#">о нас</a>
                     </div>
+                    <a href="#" class="footer_links_lang">Русский</a>
                 </div>
-                <div class="col-md-3 offset-md-5">
-                    <div class="footer_links_lang">
-                        <a href="">русский</a>
-                    </div>
-                </div>
-                
             </div>
-            <div class="footer_links_download">
-                <img src="icons/links.png" alt="">
-            </div>
+            <div>
+                <div class="footer_mobile">
+                    <a href="#">
+                        <img src="icons/links.png" alt="mobile links">
+                    </a>
+                </div>
+            </div>  
         </div>
     </footer>
 </body>
