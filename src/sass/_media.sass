@@ -14,3 +14,71 @@
             align-items: flex-start
         &_descr
             width: 300px
+    .mobile
+        &_item
+            width: 300px
+    .footer
+        &_links
+            width: 310px
+            &_main
+                a
+                    font-size: 13px
+            &_sub
+                a
+                    font-size: 9px
+        &_mobile
+            img
+                width: 250px
+@media (max-width: 992px)
+    .menu
+        &_item
+            padding-right: 5px
+        &_link
+            font-size: 11px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_subtitle
+            font-size: 11px
+        &_call
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            width: 100%
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .reasons
+        &_block
+            flex-direction: column
+            align-items: center
+        &_descr
+            margin-top: 25px
+            width: 300px
+
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100%
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        z-index: 2
+        transition: 0.6 all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
