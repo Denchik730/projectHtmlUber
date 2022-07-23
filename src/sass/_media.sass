@@ -30,6 +30,7 @@
             img
                 width: 250px
 @media (max-width: 992px)
+    
     .menu
         &_item
             padding-right: 5px
@@ -53,14 +54,36 @@
         &_subheader
             font-size: 30px
     .reasons
+        
+
         &_block
             flex-direction: column
             align-items: center
         &_descr
             margin-top: 25px
             width: 300px
+    .title
+        font-size: 30px
 
-@media (max-width: 767px)
+    .footer
+        &_social
+            width: 140px
+            &_item
+                width: 25px
+                height: 25px
+        &_links
+            width: 260px
+            &_main
+                a
+                    font-size: 11px
+            &_sub
+                a
+                    font-size: 7px
+        &_mobile
+            img
+                width: 185px
+    
+@media (max-width: 767.5px)
     .menu
         position: fixed
         flex-direction: column
@@ -82,3 +105,27 @@
             margin: 10px 0
         &_link
             font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
