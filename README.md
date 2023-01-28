@@ -1,7 +1,8 @@
 # Проект: Uber ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ---
-
+## Превью:
+![Uber](https://user-images.githubusercontent.com/102176847/215272841-51897bd8-460c-4b9f-bb45-b12328010c8f.gif)
 ## Описание: данный проект решает такие проблемы современности как:
 
 - Способность быстро и вовремя перебираться из одной точки города в другую
